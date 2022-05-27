@@ -1,0 +1,35 @@
+{
+  "name": "vite-lit",
+  "private": true,
+  "version": "0.0.0",
+  "main": "dist/my-element.es.js",
+  "exports": {
+    ".": "./dist/my-element.es.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.2",
+    "@vaadin/router": "^1.7.4",
+    "@vaadin/vaadin-button": "^23.0.10",
+    "@vaadin/vaadin-charts": "^23.0.10",
+    "@vaadin/vaadin-checkbox": "^23.0.10",
+    "@vaadin/vaadin-radio-button": "^23.0.10",
+    "@vaadin/vaadin-text-field": "^23.0.10",
+    "lit": "^2.0.2",
+    "nanoid": "^3.3.4",
+    "pwa-helpers": "^0.9.1",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0",
+    "reselect": "^4.1.5",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "vite": "^2.9.9"
+  }
+}
